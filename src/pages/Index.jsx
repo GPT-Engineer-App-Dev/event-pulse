@@ -12,6 +12,9 @@ const Index = () => {
         </Box>
         <Button as={Link} to="/events" colorScheme="teal" size="lg">View Events</Button>
         <Button as={Link} to="/create-event" colorScheme="teal" size="lg">Create Event</Button>
+        <Button as={Link} to="/book-ticket/1" colorScheme="teal" size="lg">Book Tickets for Event 1</Button>
+        <Button as={Link} to="/book-ticket/2" colorScheme="teal" size="lg">Book Tickets for Event 2</Button>
+        <Button as={Link} to="/book-ticket/3" colorScheme="teal" size="lg">Book Tickets for Event 3</Button>
       </VStack>
     </Container>
   );
