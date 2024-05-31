@@ -11,6 +11,7 @@ const Index = () => {
           <Image src="/images/event-management.jpg" alt="Event Management" />
         </Box>
         <Button as={Link} to="/events" colorScheme="teal" size="lg">View Events</Button>
+        <Button as={Link} to="/create-event" colorScheme="teal" size="lg">Create Event</Button>
       </VStack>
     </Container>
   );
